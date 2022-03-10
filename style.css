@@ -1,0 +1,79 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.app-container{
+    max-width: 661px;
+    min-height: 763px;
+    background-color: #C4C4C4;
+    margin:auto;
+}
+.search-container{
+    max-width: 500px;
+    min-height: 301px;
+    margin: auto;
+    padding-top:62px;
+    background-color: transparent;
+    margin-bottom: 45px;
+}
+.search-container__text-field{
+    font-family: 'Roboto', sans-serif;
+    width:100%;
+    min-height: 61px;
+    background-color: #FFFFFF;
+    font-size: 48px;
+    margin:0;
+    padding:0;
+    border:0;
+}
+.text-field{
+    padding-left: 13px;
+    box-sizing: border-box;
+}
+.search-container__prompts-list{
+    max-width:100%;
+    font-size: 30px;
+}
+.list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+.prompts-list__item{
+    height: 44px;
+    background-color: #E3E3E3;
+    border:2px solid black;
+    padding-left: 13px;
+}
+.prompts-list__item:hover{
+    background-color: #65CDF9; 
+}
+.repos-list{
+    margin:auto;
+    max-width: 503px;    
+    font-size: 24px;
+}
+.repos-list__item{
+    background-color: #E27BEB;
+    border: 1px solid black;
+    width: 100%;
+    height: 101px;
+    box-sizing: border-box;
+    padding: 8px 16px 8px 15px;
+    line-height: 28px;
+    position: relative;
+}
+.close-btn{
+    position: absolute;
+    width: 42px;
+    height: 38.5px;
+    top: 31px;
+    right: 34px;
+    background: url('images/close-btn.png') 50% 50%;
+    background-size: 100%;
+    cursor:pointer;
+}
+
+
